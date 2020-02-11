@@ -7,5 +7,17 @@ function getHgf(){
 	echo $name;
 }
 getHgf();
+echo $name.'<br/>';
+$g = "Google";
+$Google = 1;
+$Google++;
+echo $$g.'<br/>';
+$d = 23;
+echo $d % $$g;
+$r=6;
+$r+=$d;
+echo $r.'<br/>';
+$r*=$d;
+echo $r.'<br/>';
+
  
-?>
